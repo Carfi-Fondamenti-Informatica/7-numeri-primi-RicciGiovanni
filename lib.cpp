@@ -1,5 +1,5 @@
 #include "lib.h"
-
+using namespace std;
 int primo()
 {
      int a,d=2,p=1;
