@@ -6,7 +6,7 @@ bool primo(int d,int n);
    int numero=0;
    bool a;
   do{
-   cin>>numero;}while(numero<=1)
+   cin>>numero;}while(numero<=1);
   
    a=primo(2,numero);
   
