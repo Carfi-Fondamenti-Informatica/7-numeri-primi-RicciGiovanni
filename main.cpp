@@ -5,19 +5,19 @@ using namespace std;
 
 int main(){
     int numero=0;
-    bool a;
+    
 
     cin>>numero;
 
-    a=primo(2,numero);
+    
 
-    if(a==0)
+    if(primo(2,numero));
     {
-        cout<<"numero non primo"<<endl;
+        cout<<"numero primo"<<endl;
     }
     else
     {
-        cout<<"numero primo"<<endl;
+        cout<<"numero non primo"<<endl;
     }
     return 0;
 
