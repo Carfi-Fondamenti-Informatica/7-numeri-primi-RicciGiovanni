@@ -11,7 +11,7 @@ bool primo(int d, int n)
         }
         else
         {
-            cout<<"falso"<<endl;
+            cout<<"false"<<endl;
         }
         return (n==d);
     }
