@@ -6,8 +6,8 @@ using namespace std;
  int main(){
    int numero=0;
    bool a;
-  do{
-   cin>>numero;}while(numero<=1);
+  
+   cin>>numero;
   
    a=primo(2,numero);
   
