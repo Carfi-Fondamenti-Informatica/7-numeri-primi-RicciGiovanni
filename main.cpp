@@ -4,7 +4,7 @@ using namespace std;
 int primo()
 {
      int a,d=2,p=1;
-    cout<<"inserisci un numero intero"<<endl;
+    
     cin>>a;
     while(d<a)
     {
