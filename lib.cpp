@@ -12,7 +12,7 @@ bool primo(int d, int n)
     }
     else if(n%d==0)
     {
-        return false
+        return false;
 
     }
     else{
