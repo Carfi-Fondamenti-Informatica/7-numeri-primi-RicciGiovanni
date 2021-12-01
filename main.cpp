@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 #include "lib.h"
-bool primo(int,int);
+bool primo(int d,int n);
  int main(){
    int numero=0;
    bool a;
-   cin>>numero;
+  do{
+   cin>>numero;}while(numero<=1)
   
    a=primo(2,numero);
   
