@@ -1,46 +1,29 @@
-#include <iostream>
-
+  #include <iostream>
 using namespace std;
-int primo()
+//#include "lib.h"
+ bool primo(int d, int n)
 {
-     int a,d=2,p=1;
-    
-    cin>>a;
-    while(d<a)
-    {
-        if(a%d==0)
-        {
-            p=0;
-            d=d+1;
-        }
-        else
-        {
-            d=d+1;
-        }
-       
-    }
-        
-    if(p==1)
-        {
-         cout<<"vero"<<endl;   
-        }
-        else
-        {
-           cout<<"falso"<<endl; 
-        }
-        return p;
+  if(n%d==0)
+  {
+      if(n==d)
+      {
+          cout<<"vero"<<endl;
+      }
+      else
+      {
+          cout<<"falso"<<endl;
+      }
+      return (n==d);
+  }
+  else
+  {
+      
+  }
+    return primo(d+1,n);
 }
-int main()
-{  
-    int a;
-    a=primo();
-    if(a==0)
-    {
-        cout<<"numero non primo"<<endl;
-    }
-    else
-    {
-        cout<<"numero primo"<<endl;
-    }
-    return 0;
-}
+ int main(){
+   int numero=0;
+   cin>>numero;
+   primo(2,numero)? cout<<"numero primo" :cout<<"numero non primo";
+   return 0;
+ }
