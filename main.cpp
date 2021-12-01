@@ -10,5 +10,6 @@ int main(){
     else {
         cout<<"numero non primo"<<endl;
     }
+    
     return 0;
 }
