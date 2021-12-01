@@ -1,1 +1,1 @@
-bool primo(int, int );
+bool primo(int n, int d );
