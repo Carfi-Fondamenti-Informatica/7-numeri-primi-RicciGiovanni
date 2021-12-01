@@ -1,13 +1,17 @@
 #include <iostream>
-using namespace std;
 #include "lib.h"
-
-
-
-
- int main(){
-   int numero=0;
-   cin>>numero;
-   primo(2,numero)? cout<<"numero primo" :cout<<"numero non primo";
-   return 0;
- }
+using namespace std;
+int main()
+{  
+    int a;
+    a=primo();
+    if(a==0)
+    {
+        cout<<"numero non primo"<<endl;
+    }
+    else
+    {
+        cout<<"numero primo"<<endl;
+    }
+    return 0;
+}
