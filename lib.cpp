@@ -3,21 +3,20 @@
 using namespace std;
 bool primo(int d, int n)
 {
-    if(n%d==0)
+    if(n==d)
     {
-        if(n==d)
-        {
-            cout<<"vero"<<endl;
-        }
-        else
-        {
-            cout<<"false"<<endl;
-        }
-        return (n==d);
+      return true;
     }
-    else
+    else if(n==1)
     {
+        return true;
+    }
+    else if(n%d==0)
+    {
+        return false
 
     }
+    else{
     return primo(d+1,n);
+    }
 }
